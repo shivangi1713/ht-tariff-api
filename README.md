@@ -37,9 +37,9 @@ tariff-wise summaries and consumer-level drill-down APIs.
 1. Create virtual environment
  **python -m venv venv**
 2. Activate:
-   Windows:
+  -  Windows:
  **venv\Scripts\activate**
-   Linux / macOS:
+  -  Linux / macOS:
  **source venv/bin/activate**
 3. Install dependencies
  **pip install django djangorestframework psycopg2-binary python-dotenv**
