@@ -34,7 +34,7 @@ tariff-wise summaries and consumer-level drill-down APIs.
 ---
 
 ## ⚙️ Setup Instructions
- 1. Create virtual environment
+ 1. Create virtual environment.
 **python -m venv venv**
 2. Activate:
 Windows:
