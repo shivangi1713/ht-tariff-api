@@ -34,11 +34,11 @@ tariff-wise summaries and consumer-level drill-down APIs.
 ---
 
 ## ⚙️ Setup Instructions
- 1. Create virtual environment.
-**python -m venv venv**
-2. Activate:
-Windows:
-**venv\Scripts\activate**
+ - 1. Create virtual environment
+ - **python -m venv venv**
+- 2. Activate:
+- Windows:
+- **venv\Scripts\activate**
 Linux / macOS:
 **source venv/bin/activate**
 3. Install dependencies
