@@ -34,4 +34,35 @@ tariff-wise summaries and consumer-level drill-down APIs.
 ---
 
 ## ⚙️ Setup Instructions
- Create virtual environment
+ 1. Create virtual environment
+**python -m venv venv**
+2. Activate:
+Windows:
+**venv\Scripts\activate**
+Linux / macOS:
+**source venv/bin/activate**
+3. Install dependencies
+**pip install django djangorestframework psycopg2-binary python-dotenv**
+
+4. Configure environment variables
+Create a .env file in project root:
+
+**DB_NAME=HT_DATA_PGVCL**
+**DB_USER=postgres**
+**DB_PASSWORD=your_password**
+**DB_HOST=localhost**
+**DB_PORT=5432**
+
+5. Run database migrations
+**python manage.py migrate**
+
+Note: The main data table (ht_data) already exists in PostgreSQL and is
+mapped using managed = False.
+
+6. Start the server
+**python manage.py runserver**
+
+Server will run at:
+
+**http://127.0.0.1:8000/**
+
