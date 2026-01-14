@@ -13,7 +13,7 @@ tariff-wise summaries and consumer-level drill-down APIs.
 - Consumer-level drill-down
 - Hierarchical tariff filtering
 - Filter support by year, month, division, subdivision
-- Tested using VS Code (Thunder Client / Postman)
+- Tested using VS Code (Postman)
 
 ---
 
